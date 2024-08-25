@@ -46,7 +46,8 @@ const Blog = mongoose.model("Blog", blogSchema);
 
 app.use(express.json());
 app.get("/", (req, res) => {
-  console.log("Welcome");
+  // console.log("");
+  res.send("hello")
 });
 
 // create blogs
